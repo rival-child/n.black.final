@@ -1,0 +1,64 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Ski World!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: lightblue;
+            padding: 10px;
+            text-align: center;
+        }
+        .animated {
+            width: 100px;
+            animation: slide 5s infinite; /* Infinite sliding animation */
+        }
+        @keyframes slide {
+            0% { margin-left: 0; }
+            50% { margin-left: 50%; }
+            100% { margin-left: 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Ski World!</h1>
+    </header>
+    <main>
+        <h2>Breathtaking Ski Destinations</h2>
+        <img src="Ski_destinations.jpg" alt="Ski destinations around the world" style="width:500px;height:400px;">
+        <div class="animated">
+            <img src="ski_icon.png" alt="Animated Ski Icon" />
+        </div>
+        <h2>Recommended Equipment</h2>
+        <ul>
+            <li>Ski boots and skis</li>
+            <li>Helmet</li>
+            <li>Ski poles</li>
+            <li>Goggles and gloves</li>
+        </ul>
+        <h2>Top Ski Resorts</h2>
+        <table>
+            <tr>
+                <th>Resort Name</th>
+                <th>Country</th>
+                <th>Average Snowfall</th>
+            </tr>
+            <tr>
+                <td>Whistler</td>
+                <td>Canada</td>
+                <td>38 feet</td>
+            </tr>
+            <tr>
+                <td>Zermatt</td>
+                <td>Switzerland</td>
+                <td>21 feet</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
+```
